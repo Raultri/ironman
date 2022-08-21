@@ -606,3 +606,29 @@ figure {
 	background: #FF4286;
 	overflow: hidden;
 }
+/*EFECTO EN PAGINA DE COMPETICIONES*/
+.hover09 figure img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover09 figure:hover img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+.efect {
+   margin: 90px 15px 0;
+   padding: 0px;
+   padding-bottom: 0px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.texto h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
