@@ -1,0 +1,103 @@
+.contenido {
+    background-color: #FF4286;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.contenido-section_1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: #181616;
+}
+h2 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido-section_2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 280px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #181616;
+}
+ul {
+    margin-left: 25px;
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------------------RESPONSIVE TABLET-------------------*/
+@media  screen and  (max-width: 768px) {
+.contenido-section_1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #181616;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido-section_2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #181616;
+}
+}
+/*-------------------RESPONSIVE MOVIL----------------------*/
+@media  screen and  (max-width: 380px) {
+.contenido-section_1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #181616;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido-section_2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #181616;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+}
