@@ -32,7 +32,7 @@
   .cabecera {
     background-color: #42A4FF;
     flex-direction: column;
-    padding: 25px;
+    padding: 4px;
     align-items: center;
   }
   .cabecera_nav {
@@ -56,7 +56,7 @@
   .cabecera {
     background-color: #42A4FF;
     flex-direction: column;
-    padding: 25px;
+    padding: 4px;
     align-items: center;
   }
   .cabecera_nav {
@@ -79,7 +79,7 @@
 }
 .grids {
   display: grid;
-  grid-template-rows: 122px 100% 122px;
+  grid-template-rows: auto 100% auto;
 }
 
 .contenido {

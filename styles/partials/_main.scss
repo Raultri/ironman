@@ -39,6 +39,161 @@ h3 {
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
 }
+.contenido-nosotros {
+    margin: 0px 0px;
+    width: 100%;
+    background-color: #FF4286;
+    padding: 50px;
+}
+.contenido-nosotros-section_1 h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 25px 50px;
+    color: #ffffff;
+}
+.imagenes-nosotros {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+img {
+    display: flex;
+    padding: 25px;
+    width: 400px;
+    height: 250px;
+}
+/*TRANSICION*/
+.imagenes-nosotros section img{
+    width: 300px;
+    height: 250px;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.imagenes-nosotros section:hover img {
+    width: 350px;
+    height: 300px;
+}
+.column {
+    margin: 15px 15px 0;
+    padding: 0;
+}
+.column:last-child {
+    padding-bottom: 60px;
+}
+.column::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.column div {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+.column div:first-child {
+    margin-left: 0;
+}
+.column div span {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+figure {
+    width: 300px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background: #FF4286;
+    overflow: hidden;
+}
+/*TRANSICIONES DE IMAGENES DE NOSOTROS*/
+.imagenes-nosotros section img{
+width: 400px;
+height: 250px;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.imagenes-nosotros section:hover img {
+width: 450px;
+height: 300px;
+}
+.column {
+margin: 15px 15px 0;
+padding: 0;
+}
+.column:last-child {
+padding-bottom: 60px;
+}
+.column::after {
+content: '';
+clear: both;
+display: block;
+}
+.column div {
+position: relative;
+float: left;
+width: 400px;
+height: 250px;
+margin: 0 0 0 25px;
+padding: 0;
+}
+.column div:first-child {
+margin-left: 0;
+}
+.column div span {
+position: absolute;
+bottom: -20px;
+left: 0;
+z-index: -1;
+display: block;
+width: 300px;
+margin: 0;
+padding: 0;
+color: #444;
+font-size: 18px;
+text-decoration: none;
+text-align: center;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+opacity: 0;
+}
+figure {
+width: 400px;
+height: 250px;
+margin: 0;
+padding: 0;
+background: #FF4286;
+overflow: hidden;
+}
 /*---------------------RESPONSIVE TABLET-------------------*/
 @media  screen and  (max-width: 768px) {
 .contenido-section_1 {

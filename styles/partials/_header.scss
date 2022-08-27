@@ -30,9 +30,9 @@
 /*---------------------RESPONSIVE TABLET-------------------*/
 @media  screen and  (max-width: 768px) {
     .cabecera {
-        background-color: #42A4FF;
+        background-color: $primary;
         flex-direction: column;
-        padding: 25px;
+        padding: 4px;
         align-items: center;
     }
     .cabecera_nav {
@@ -56,7 +56,7 @@
     .cabecera {
         background-color: #42A4FF;
         flex-direction: column;
-        padding: 25px;
+        padding: 4px;
         align-items: center;
     }
     .cabecera_nav {
