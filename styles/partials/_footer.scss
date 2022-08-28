@@ -1,5 +1,5 @@
 .pie_de_pagina {
-    background-color: #42A4FF;
+    background-color: $primary;
     display: flex;
     padding: 25px;
     width: 100%;
@@ -24,7 +24,7 @@ p {
 /*---------------------RESPONSIVE TABLET-------------------*/
 @media  screen and  (max-width: 768px) {
     .pie_de_pagina {
-        background-color: #42A4FF;
+        background-color: $primary;
         flex-direction: column;
         padding: 25px;
         align-items: center;
