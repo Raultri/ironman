@@ -1,0 +1,13 @@
+@mixin titulos_h1 ($color, $fontfamily, $decoration: false) {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: $color;
+    @if ($decoration) {
+        text-decoration: underline;
+    } @else {
+        text-decoration: wavy;
+    }
+}
+.h1-contacto {
+    @include titulos_h1 ($color: rgb(8, 48, 160), $decoration: true);
+}

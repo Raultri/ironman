@@ -1,3 +1,19 @@
+/*---------------------RESPONSIVE TABLET-------------------*/
+@media screen and (max-width: 768px) {
+  .h1 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+}
+/*-------------------RESPONSIVE MOVIL----------------------*/
+@media screen and (max-width: 380px) {
+  .h1 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+}
 .cabecera {
   background-color: #42A4FF;
   display: flex;
@@ -115,6 +131,14 @@ h1 {
   margin-left: 50px;
   padding-top: 40px;
   color: #181616;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 10px;
+  margin-top: 30px;
 }
 
 ul {
@@ -485,8 +509,31 @@ h3 {
     z-index: 1;
     margin-top: 110px;
     margin-left: 50px;
-    padding-top: 0px;
+    padding-top: 40px;
     color: #181616;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+  }
+  /*-------------------------PAGINA DE COMPETICIONES----------------------*/
+  .contenido-competiciones-s2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #181616;
+  }
+  .texto h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding-top: 5px;
   }
   /*-------------------------PAGINA DE CONTACTO----------------------*/
   .contenido-contacto-section_1 {
@@ -515,7 +562,7 @@ h3 {
     background-color: #FF4286;
     padding: 50px;
   }
-  h1 {
+  .contenido-nosotros-section_1 h1 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -524,7 +571,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
   }
-  p {
+  .contenido-nosotros-section_1 p {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -779,4 +826,8 @@ p {
     justify-content: center;
     padding-top: 25px;
   }
+}
+.h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

@@ -28,6 +28,13 @@ h1 {
     padding-top: 40px;
     color: #181616;
 }
+h3 {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    margin-top: 30px;
+}
 ul {
     margin-left: 25px;
     color: #000000;
@@ -266,7 +273,7 @@ h3 {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 25px;
-    border: 1px solid #42A4FF;
+    border: 1px solid $primary;
     border-radius: 15px;
     padding-top: 100px;
 }
@@ -276,22 +283,22 @@ h3 {
     justify-content: center;
     margin-right: 100px;
     margin-top: 50px;
-    border: 1px solid #42A4FF;
+    border: 1px solid $primary;
     border-radius: 15px;
     margin-left: 25px;
     padding: 0px;
 }
 .formulario {
     padding: 5px;
-    border: 1px solid #42A4FF;
+    border: 1px solid $primary;
     border-radius: 5px;
     
 }
 .formulario_boton {
     margin-top: 10px;
     padding: 5px 10px 5px 10px;
-    background-color: #42A4FF;
-    border: 1px solid #FF4286;
+    background-color: $primary;
+    border: 1px solid $secundary;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -300,7 +307,7 @@ h3 {
 .contenido-galeria {
     margin: 0px 0px;
     width: 100%;
-    background-color: #FF4286;
+    background-color: $secundary;
     padding: 100px;
 }
 .contenido-galeria-section_1 h1 {
@@ -349,7 +356,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    font-size: 24px;
+    font-size: $tablet-H1;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -358,9 +365,32 @@ h1 {
     z-index: 1;
     margin-top: 110px;
     margin-left: 50px;
-    padding-top: 0px;
+    padding-top: 40px;
     color: #181616;
 }
+h3 {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+/*-------------------------PAGINA DE COMPETICIONES----------------------*/
+.contenido-competiciones-s2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding-top: 40px;
+    color: #181616;
+  }
+  .texto h2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding-top: 5px;
+  }
 /*-------------------------PAGINA DE CONTACTO----------------------*/
 .contenido-contacto-section_1{
     padding-bottom: 50px;
@@ -385,10 +415,10 @@ h3 {
 .contenido-nosotros {
     margin: 0px 0px;
     width: 100%;
-    background-color: #FF4286;
+    background-color: $secundary;
     padding: 50px;
 }
-h1 {
+.contenido-nosotros-section_1 h1 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -397,7 +427,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
-p {
+.contenido-nosotros-section_1 p {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -459,7 +489,7 @@ h3 {
 .contenido-nosotros {
     margin: 0px 0px;
     width: 100%;
-    background-color: #FF4286;
+    background-color: $secundary;
     padding: 20px 10px 20px 10px;
 }
 .contenido-nosotros-section_1 h1 {
@@ -549,7 +579,7 @@ figure {
     height: 250px;
     margin: 0;
     padding: 0;
-    background: #FF4286;
+    background: $secundary;
     overflow: hidden;
 }
 /*-------------------------PAGINA DE GALERIA----------------------*/
