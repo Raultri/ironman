@@ -1,3 +1,10 @@
+.h1-contacto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #42A4FF;
+  text-decoration: underline;
+}
+
 /*---------------------RESPONSIVE TABLET-------------------*/
 @media screen and (max-width: 768px) {
   .h1 {

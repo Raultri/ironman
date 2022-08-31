@@ -4,7 +4,7 @@
 /*---------------------RESPONSIVE TABLET-------------------*/
 @media  screen and  (max-width: 768px) {
 .h1 {
-    font-size: $tablet-H1;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -12,7 +12,7 @@
 /*-------------------RESPONSIVE MOVIL----------------------*/
 @media  screen and  (max-width: 380px) {
     .h1 {
-        font-size: $mobile-H1;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
     }

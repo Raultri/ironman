@@ -1,8 +1,8 @@
 .pie_de_pagina {
-    background-color: $primary;
-    display: flex;
-    padding: 25px;
-    width: 100%;
+    background-color: map-get($estilos, primary);
+    display: map-get($estilos, display);
+    padding: map-get($estilos, padding);
+    width: map-get($estilos, width);
 }
 .pie_de_pagina-section-1 {
     width: 100%;
