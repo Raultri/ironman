@@ -11,3 +11,34 @@
 .h1-contacto {
     @include titulos_h1 ($color: $primary, $decoration: true);
 }
+@mixin botones($radius: false) {
+    background-color: $secundary;
+    border: none;
+    padding: 10px;
+    margin: 30px 10px;
+    @if($radius) {
+      border-radius: 10px;
+      border: 02px solid;
+      background-color: $primary;
+    } @else {
+      border-radius: 0px;
+    }
+  }
+  
+  .run {
+    @include botones( $radius: true);
+    background-color: $secundary;
+    color: #FFFFFF;
+  }
+  
+  .cycling {
+    @include botones( $radius: true);
+    background-color: $secundary;
+    color: #fff;
+  }
+  
+  .swim {
+    @include botones($radius: true);
+    background-color: $secundary;
+    color: #fff;
+  }

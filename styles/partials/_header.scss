@@ -1,7 +1,7 @@
 .cabecera {
     background-color: $primary;
     display: flex;
-    padding: 25px;
+    padding: 10px 15px 10px 15px;
 }
 
 .cabecera_nav {
@@ -12,7 +12,6 @@
         list-style-type: none;
         display: flex;
         justify-content: flex-end;
-        margin-top: 20px;
     }
     li {
         margin-left: 15px;
