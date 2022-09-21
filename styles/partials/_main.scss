@@ -417,11 +417,10 @@ h3 {
 }
 /*-------------------------PAGINA DE COMPETICIONES----------------------*/
 .contenido-competiciones-s2 {
-    position: absolute;
     z-index: 1;
-    margin-top: 110px;
-    margin-left: 50px;
-    padding-top: 40px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
     color: #181616;
   }
   .texto h2 {
@@ -430,7 +429,8 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     margin-bottom: 40px;
-    padding-top: 5px;
+    padding-top: 130px;
+    text-align: center;
   }
 /*-------------------------PAGINA DE CONTACTO----------------------*/
 .contenido-contacto-section_1{
@@ -642,12 +642,13 @@ figure {
     color: #181616;
   }
   .texto h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     margin-bottom: 40px;
     padding-top: 130px;
+    text-align: center;
   }
   .contenido-section_2 h3 {
     font-size: 16px;
@@ -664,9 +665,5 @@ figure {
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
-  .texto h2 {
-    font-size: 20px;
-    text-align: center;
   }
 }
