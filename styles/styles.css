@@ -620,6 +620,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 10px;
   }
+  .centrado {
+    display: flex;
+    justify-content: center;
+  }
   /*-------------------------PAGINA DE COMPETICIONES----------------------*/
   .contenido-competiciones-s2 {
     z-index: 1;
@@ -656,6 +660,10 @@ h3 {
     font-size: 20px;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
+  }
+  .map-responsive {
+    display: flex;
+    justify-items: center;
   }
   /*-------------------------PAGINA DE NOSOTROS----------------------*/
   .contenido-nosotros {
@@ -861,13 +869,18 @@ h3 {
     margin-top: -45px;
   }
   .efect {
-    margin: 300px 15px 0;
+    margin: 50px 15px 0;
     padding: 0px;
     padding-bottom: 0px;
     padding-bottom: 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
+  }
+  /*-------------------------PAGINA DE CONTACTO----------------------*/
+  .map-responsive {
+    display: flex;
+    justify-items: center;
   }
 }
 .pie_de_pagina {
@@ -935,6 +948,7 @@ h3 {
     text-decoration: none;
     margin-top: 20px;
     justify-content: center;
+    text-align: center;
   }
   .pie_de_pagina-section-2 {
     width: 100%;
